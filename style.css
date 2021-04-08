@@ -94,6 +94,7 @@ main {
 
 .domaines {
     display: flex;
+    flex-wrap: wrap;
     margin-top: 5%;
     margin-bottom: 3%;
 }
@@ -138,7 +139,49 @@ footer {
     border: solid;
 }
 
+footer h6 {
+    text-align: center;
+}
+
 .reseaux {
     display: flex;
     justify-content: space-around;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+#twitter {
+    width: 27px;
+    height: auto;
+}
+
+#facebook {
+    width: 16px;
+    height: auto;
+}
+
+#instagram {
+    width: 23px;
+    height: auto;
+}
+
+.menus {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.menus ul {
+    margin-left: 2%;
+    margin-top: 4%;
+    font-size: 0.7em;
+}
+
+.menus h5 {
+    margin-bottom: 0;
+}
+
+.menus p {
+    font-size: 0.7em;
+    margin-left: 20%;
 }
