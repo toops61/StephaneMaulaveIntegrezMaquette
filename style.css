@@ -152,23 +152,28 @@ footer h6 {
 
 #twitter {
     width: 27px;
-    height: auto;
+    height: 100%;
 }
 
 #facebook {
     width: 16px;
-    height: auto;
+    height: 100%;
 }
 
 #instagram {
     width: 23px;
-    height: auto;
+    height: 100%;
 }
 
 .menus {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+
+.menu-seul {
+    flex: 1;
+    margin-left: 7%;
 }
 
 .menus ul {
